@@ -8,6 +8,7 @@ class App < Formula
   bottle :unneeded
 
   def install
+    p `pwd`
     p `ls`
 
     puts "Hello, world!"
