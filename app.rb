@@ -6,9 +6,9 @@ class App < Formula
 
   bottle :unneeded
 
-  def install
-    bin.install "dingo"
-  end
+#  def install
+#    bin.install "dingo"
+#  end
 
 #  test do
 #    system "#{bin}/app", "--version"
