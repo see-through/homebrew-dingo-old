@@ -8,12 +8,14 @@ class App < Formula
   bottle :unneeded
 
   def install
-    p `pwd`
-    p `ls`
+#    p `pwd`
+#    p `ls`
 
-    puts "Hello, world!"
-    puts "Hello, world! 2"
-    puts Dir.pwd
+    lib.install "libdingo_app.dylib"
+
+#    puts "Hello, world!"
+#    puts "Hello, world! 2"
+#    puts Dir.pwd
 #    (lib/'libdingo_app.dylib').install "lib/libdingo_app.dylib"
   end
 
