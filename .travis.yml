@@ -4,7 +4,7 @@ matrix:
   include:
   - os: osx
     install:
-    - HOMEBREW_NO_AUTO_UPDATE=1 brew install see-through/dingo/app
+    - HOMEBREW_NO_AUTO_UPDATE=1 brew install --verbose see-through/dingo/dingo-app
     script:
 
 notifications:
