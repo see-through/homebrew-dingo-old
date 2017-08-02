@@ -11,7 +11,7 @@ class App < Formula
 #    p `pwd`
 #    p `ls`
 
-    lib.install "libdingo_app.dylib"
+    lib.install "lib/libdingo_app.dylib"
 
 #    puts "Hello, world!"
 #    puts "Hello, world! 2"
