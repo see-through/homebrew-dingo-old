@@ -8,7 +8,8 @@ class App < Formula
   bottle :unneeded
 
   def install
-    (lib/'libdingo_app.dylib').install "lib/libdingo_app.dylib"
+    Dir.pwd
+#    (lib/'libdingo_app.dylib').install "lib/libdingo_app.dylib"
   end
 
 #  test do
