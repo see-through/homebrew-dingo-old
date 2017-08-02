@@ -8,8 +8,8 @@ class App < Formula
   bottle :unneeded
 
   def install
-#    p `pwd`
-#    p `ls`
+    p `pwd`
+    p `ls`
 
     lib.install "lib/libdingo_app.dylib"
 
