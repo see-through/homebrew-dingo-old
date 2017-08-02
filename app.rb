@@ -10,6 +10,7 @@ class App < Formula
   def install
     puts "Hello, world!"
     puts Dir.pwd
+    puts Dir.glob("*")
 #    (lib/'libdingo_app.dylib').install "lib/libdingo_app.dylib"
   end
 
