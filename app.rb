@@ -12,6 +12,7 @@ class App < Formula
     p `ls`
 
     puts "Hello, world!"
+    puts "Hello, world! 2"
     puts Dir.pwd
 #    (lib/'libdingo_app.dylib').install "lib/libdingo_app.dylib"
   end
