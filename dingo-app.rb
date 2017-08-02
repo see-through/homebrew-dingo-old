@@ -2,7 +2,7 @@ class DingoApp < Formula
   desc "dingo"
   homepage "https://github.com/see-through"
   url "https://s3-eu-west-1.amazonaws.com/see-through-dingo/dingo-0.1.1-darwin-app.tar.gz"
-  sha256 "6689c9f47935d291aa479bd76da26c6942b2808293c422fbff04eb5199891383"
+#  sha256 "6689c9f47935d291aa479bd76da26c6942b2808293c422fbff04eb5199891383"
 
   bottle :unneeded
 
