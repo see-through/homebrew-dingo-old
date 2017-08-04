@@ -11,7 +11,7 @@ class DingoApp < Formula
   end
 
   def install
-    puts File.dirname(__FILE__))
+    puts File.dirname(__FILE__)
 
     lib.install "lib/libdingo_app.dylib"
   end
