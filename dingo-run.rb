@@ -1,4 +1,6 @@
 class DingoRun < Formula
+  depends_on "libuv"
+
   desc "dingo"
   homepage "https://github.com/see-through"
   url "https://s3-eu-west-1.amazonaws.com/see-through-dingo/dingo-0.1.1-darwin-run.tar.gz"
