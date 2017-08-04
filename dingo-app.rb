@@ -2,9 +2,7 @@ class DingoApp < Formula
   desc "dingo"
   homepage "https://github.com/see-through"
   url "https://s3-eu-west-1.amazonaws.com/see-through-dingo/dingo-0.1.1-darwin-app.tar.gz"
-
-  @sha256_filename File.join(File.dirname(__FILE__), 'dingo-app-sha256')
-  sha256 File.read(sha256_filename).strip
+  sha256 File.read(File.join(File.dirname(__FILE__), 'dingo-app-sha256')).strip
 
   bottle :unneeded
 
