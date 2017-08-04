@@ -7,7 +7,7 @@ class DingoRun < Formula
   bottle :unneeded
 
   devel do
-    url "https://s3-eu-west-1.amazonaws.com/see-through-dingo/dingo-0.1-cc2fbd4-darwin-run.tar.gz"
+    url "https://s3-eu-west-1.amazonaws.com/see-through-dingo/dingo-0.1-latest-darwin-run.tar.gz"
     sha256 File.read(File.join(File.dirname(__FILE__), 'dingo-run-devel-sha256')).strip
   end
 
