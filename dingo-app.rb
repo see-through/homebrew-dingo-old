@@ -8,10 +8,11 @@ class DingoApp < Formula
 
   devel do
     url "https://s3-eu-west-1.amazonaws.com/see-through-dingo/dingo-0.1-cc2fbd4-darwin-app.tar.gz"
-    sha256 :no_check
   end
 
   def install
+    puts File.dirname(__FILE__))
+
     lib.install "lib/libdingo_app.dylib"
   end
 
