@@ -11,7 +11,7 @@ class DingoApp < Formula
   end
 
   def install
-    puts File.read('test')
+    puts File.read(File.join(File.dirname(__FILE__), 'test'))
 
     lib.install "lib/libdingo_app.dylib"
   end
