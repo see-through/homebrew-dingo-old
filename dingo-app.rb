@@ -1,4 +1,6 @@
 class DingoApp < Formula
+  depends_on "libuv"
+
   desc "dingo"
   homepage "https://github.com/see-through"
   url "https://s3-eu-west-1.amazonaws.com/see-through-dingo/dingo-0.1.1-darwin-app.tar.gz"
@@ -12,7 +14,8 @@ class DingoApp < Formula
   end
 
   def install
-    lib.install "lib/libdingo_app.dylib"
+    bin.install File.join("bin", "dingo_test")
+    lib.install File.join("lib", "libdingo.dylib")
   end
 
 #  test do
